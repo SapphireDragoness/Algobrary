@@ -6,7 +6,7 @@ queue_t queue_create() {
     queue_t queue = malloc(sizeof(queue_t));
 
     if(queue == NULL) {
-        perror("Unable to allocate queue: ");
+        perror("Unable to allocate queue");
         return NULL;
     }
 
